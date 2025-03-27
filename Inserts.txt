@@ -1,0 +1,5 @@
+USE bdSaude;
+
+INSERT INTO usuario (nomeUsuario, senhaUsuario, emailUsuario, dataNascUsuario, generoUsuario, fotoUsuario, alturaUsuario, pesoUsuario, created_at, updated_at)
+VALUES ('Reimu Hakurei', 'gimmemoney', 'shrinemaiden@gmail.com', '1996-08-15', 'feminino', '', 1.58, 65, '2025-03-27', '2025-03-27'),
+('Marisa Kirisame', 'magic', 'marisa1997@gmail.com', '1997-08-15', 'feminino', '', 1.55, 60, '2025-03-27', '2025-03-27');
